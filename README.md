@@ -28,10 +28,14 @@ If You Run On Windows , Just Download And Install Python3
 
 Than Run CMD And Input
 
-```py ebola.py```
+```
+py ebola.py
+```
 
 If There Has Any Error About Module
 
 Run 
 
-```py -m pip install requests colorama pysocks folium IP2Location```
+```
+py -m pip install requests colorama pysocks folium IP2Location
+```
