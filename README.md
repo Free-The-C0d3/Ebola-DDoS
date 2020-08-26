@@ -39,3 +39,11 @@ Run
 ```
 py -m pip install requests colorama pysocks folium IP2Location
 ```
+
+
+NOTE: 
+           This Script Is For Education Only,
+           Not For Attack And Sell 
+           If I Found Anyone Who Sell This Script
+           I'll Stop Upgrade And Delete This Script
+           If Somebody Sell This, Let Me Know :)
