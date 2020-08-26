@@ -3,7 +3,7 @@
 INSTALL On Linux
 ```
 apt-get update
-apt-get install python3 python3-pip
+apt-get install python3 python3-pip git
 git clone https://github.com/413xPr06605/Ebola-DDoS
 cd Ebola-DDoS
 ```
