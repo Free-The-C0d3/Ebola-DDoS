@@ -324,7 +324,7 @@ def main():
         time.sleep(1)
         check_socks()
         print('\33]0;[%s] EbolaVirus - Standby\a'%(suc),end='')
-    thr = str(input("Threads [1-1500] : "))
+    thr = str(input("Threads [1-1000] : "))
     if thr =="":
         print("Set Default Threads -> 300")
         thr = 300
