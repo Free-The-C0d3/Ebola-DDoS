@@ -59,8 +59,8 @@ Not For Attack And Sell
 
 If I Found Anyone Who Sell This Script
 
-I'll Stop Upgrade And Delete This Script
+I'll Stop Update And Delete This Script
 
-If Somebody Sell This, Let Me Know :)
+If Somebody Try To Selling This, Send Report To Me  :)
 
 -----------------------------------------------------------------
