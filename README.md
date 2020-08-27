@@ -10,10 +10,12 @@
                           ░                           
 
 # Ebola-DDoS
+
+
 Ebola Is A DDoS Tool For Test Website Stress
--
+
 It Using Lots Of Socks Proxy To Make The Attack Requests Like A Real Connection
--
+
 
 INSTALL On Linux
 ```
@@ -38,7 +40,7 @@ py ebola.py
 
 If There Has Any Error About Module
 
-Run 
+Run This Commands
 
 ```
 py -m pip install requests colorama pysocks folium IP2Location
