@@ -43,7 +43,7 @@ cd Ebola-DDoS
 py ebola.py
 ```
 
-If There Has Any Error About Python3 Module On Windows
+If There Has Any Error About Python3 Module On Windows System
 
 Run This Commands
 
