@@ -32,9 +32,14 @@ python3 ebola.py
 
 If You Run On Windows , Just Download And Install Python3 
 
+And Download This Tool As ZIP File
+
+When Download Complete, Extract ZIP File 
+
 Than Run CMD And Input
 
 ```
+cd Ebola-DDoS
 py ebola.py
 ```
 
