@@ -3,8 +3,8 @@
       1    ▒███   ▒██▒ ▄██▒██░  ██▒▒██░   ▒██  ▀█▄                 Socks4/5 Supported.
      8 4   ▒▓█  ▄ ▒██░█▀  ▒██   ██░▒██░   ░██▄▄▄▄██                 Version ~ # 1.2.5,
       2    ░▒████▒░▓█  ▀█▓░ ████▓▒░░██████▒▓█   ▓██▒     
-       3   ░░ ▒░ ░░▒▓███▀▒░ ▒░▒░▒░ ░ ▒░▓  ░▒▒   ▓▒█░  [+] Add Brute Mode Of V1.2.5
-            ░ ░  ░▒░▒   ░   ░ ▒ ▒░ ░ ░ ▒  ░ ▒   ▒▒ ░  [+] Add POST Header Origin Of V1.2.0
+       3   ░░ ▒░ ░░▒▓███▀▒░ ▒░▒░▒░ ░ ▒░▓  ░▒▒   ▓▒█░  [+] Add Brute Mode From V1.2.5
+            ░ ░  ░▒░▒   ░   ░ ▒ ▒░ ░ ░ ▒  ░ ▒   ▒▒ ░  [+] Add POST Header Origin From V1.2.0
                ░    ░    ░ ░ ░ ░ ▒    ░ ░    ░   ▒    [+] Global Virus Map Supported,
             ░  ░ ░          ░ ░      ░  ░     ░  ░       
                     ░                           
