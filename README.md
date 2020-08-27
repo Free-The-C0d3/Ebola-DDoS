@@ -64,3 +64,7 @@ I'll Stop Update And Delete This Script
 If Somebody Try To Sel This, Send Report To Me  :)
 
 -----------------------------------------------------------------
+
+backup: https://github.com/413xPr06605/Ebola-DDoS
+
+-----------------------------------------------------------
