@@ -19,8 +19,8 @@ It Using Lots Of Socks Proxy To Make The Attack Requests Like A Real Connection
 ---------------------------------------------------------------------------------------------
 INSTALL On Linux
 ```
-apt-get update
-apt-get install python3 python3-pip git
+sudo apt-get update
+sudo apt-get install python3 python3-pip git
 git clone https://github.com/Free-The-C0d3/Ebola-DDoS
 cd Ebola-DDoS
 ```
