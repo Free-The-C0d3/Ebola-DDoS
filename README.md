@@ -36,14 +36,14 @@ And Download This Tool As ZIP File
 
 When Download Complete, Extract ZIP File 
 
-Than Run CMD And Input
+Open Your CMD And Input
 
 ```
 cd Ebola-DDoS
 py ebola.py
 ```
 
-If There Has Any Error About Module
+If There Has Any Error About Python3 Module On Windows
 
 Run This Commands
 
