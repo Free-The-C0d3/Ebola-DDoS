@@ -63,7 +63,7 @@ If I Found Anyone Who Sell This Script
 
 I'll Stop Update And Delete This Script
 
-If Somebody Try To Sel This, Send Report To Me  :)
+If Somebody Try To Sell This, Send Report To Me  :)
 
 -----------------------------------------------------------------
 
