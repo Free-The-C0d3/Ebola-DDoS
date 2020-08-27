@@ -10,6 +10,10 @@
                           ░                           
 
 # Ebola-DDoS
+-Ebola Is A DDoS Tool For Test Website Stress
+-
+-It Using Lots Of Socks Proxy To Make The Attack Requests Like A Real Connection
+-
 
 INSTALL On Linux
 ```
