@@ -1,13 +1,15 @@
            ▓█████  ▄▄▄▄    ▒█████   ██▓    ▄▄▄    Ebola DDoS Tool Code By 413xPr06605.
      3     ▓█   ▀ ▓█████▄ ▒██▒  ██▒▓██▒   ▒████▄          Windows/Linux Supported Ver.
       1    ▒███   ▒██▒ ▄██▒██░  ██▒▒██░   ▒██  ▀█▄                 Socks4/5 Supported.
-     8 4   ▒▓█  ▄ ▒██░█▀  ▒██   ██░▒██░   ░██▄▄▄▄██                 Version ~ # 1.2.5,
+     8 4   ▒▓█  ▄ ▒██░█▀  ▒██   ██░▒██░   ░██▄▄▄▄██                 Version ~ # 1.3.0,
       2    ░▒████▒░▓█  ▀█▓░ ████▓▒░░██████▒▓█   ▓██▒     
        3   ░░ ▒░ ░░▒▓███▀▒░ ▒░▒░▒░ ░ ▒░▓  ░▒▒   ▓▒█░  [+] Add Brute Mode From V1.2.5
             ░ ░  ░▒░▒   ░   ░ ▒ ▒░ ░ ░ ▒  ░ ▒   ▒▒ ░  [+] Add POST Header Origin From V1.2.0
                ░    ░    ░ ░ ░ ░ ▒    ░ ░    ░   ▒    [+] Global Virus Map Supported,
-              ░  ░ ░      ░   ░ ░      ░  ░     ░  ░       
-                          ░                           
+              ░  ░ ░      ░   ░ ░      ░  ░     ░  ░  
+                          ░                           [+] Threads Optimization         
+                                                      [+] Request Package Optimization 
+                                                      From 1.3.0 Update :D
 
 # Ebola-DDoS
 
@@ -30,11 +32,9 @@ Linux Commands:
 python3 ebola.py
 ```
 
-If You Run On Windows , Just Download And Install Python3 
+If You Run On Windows , Just Download And Install Python3 Here -> https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tar.xz
 
-You Can Download Python3 Here -> https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tar.xz
-
-And Download This Tool As ZIP File
+After Python3 Installed, Download This Tool As ZIP File
 
 When Download Complete, Extract ZIP File 
 
@@ -67,7 +67,3 @@ If Somebody Try To Sell This, Send Report To Me  :)
 
 -----------------------------------------------------------------
 Youtube: https://youtu.be/BmssEPjLc_o
-
-backup: https://github.com/413xPr06605/Ebola-DDoS
-
------------------------------------------------------------
