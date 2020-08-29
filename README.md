@@ -65,7 +65,7 @@ If I Found Anyone Who Sell This Script
 
 I'll Stop Update And Delete This Script
 
-If Somebody Try To Sell This, Send Report To Me  :)
+If Somebody Try To Sell This Script, Send Report To Me  :)
 
 -----------------------------------------------------------------
 Youtube: https://youtu.be/BmssEPjLc_o
