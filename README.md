@@ -1,7 +1,7 @@
            ▓█████  ▄▄▄▄    ▒█████   ██▓    ▄▄▄    Ebola DDoS Tool Code By 413xPr06605.
      3     ▓█   ▀ ▓█████▄ ▒██▒  ██▒▓██▒   ▒████▄          Windows/Linux Supported Ver.
       1    ▒███   ▒██▒ ▄██▒██░  ██▒▒██░   ▒██  ▀█▄                 Socks4/5 Supported.
-     8 4   ▒▓█  ▄ ▒██░█▀  ▒██   ██░▒██░   ░██▄▄▄▄██                 Version ~ # 1.3.0,
+     8 4   ▒▓█  ▄ ▒██░█▀  ▒██   ██░▒██░   ░██▄▄▄▄██                 Version ~ # 1.3.2,
       2    ░▒████▒░▓█  ▀█▓░ ████▓▒░░██████▒▓█   ▓██▒     
        3   ░░ ▒░ ░░▒▓███▀▒░ ▒░▒░▒░ ░ ▒░▓  ░▒▒   ▓▒█░  [+] Add Brute Mode From V1.2.5
             ░ ░  ░▒░▒   ░   ░ ▒ ▒░ ░ ░ ▒  ░ ▒   ▒▒ ░  [+] Add POST Header Origin From V1.2.0
@@ -9,7 +9,9 @@
               ░  ░ ░      ░   ░ ░      ░  ░     ░  ░  
                           ░                           [+] Threads Optimization         
                                                       [+] Request Package Optimization 
-                                                      From 1.3.0 Update :D
+                                                          #1.3.0 Update Info
+                                                      [+] TLS/SSL Supported
+                                                          #1.3.2 Update Info
 
 # Ebola-DDoS
 
