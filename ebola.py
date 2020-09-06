@@ -131,7 +131,7 @@ try:
     print("Ebola Virus Map Sucess Created as \"ebola.html\"\n")
 except:
     print("\n - - - Waiting For Git Response - - - \n")
-    r = requests.get("https://github.com/Free-The-C0d3/Free-The-C0d3.github.io/raw/master/IP2LOCATION-LITE-DB5.zip")
+    r = requests.get("https://freethecode.cf/IP2LOCATION-LITE-DB5.zip")
     with open("IP2LOCATION-LITE-DB5.zip","wb") as f:
         f.write(r.content)
     with zipfile.ZipFile("IP2LOCATION-LITE-DB5.zip","r") as myzip:
