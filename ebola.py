@@ -79,7 +79,7 @@ print("""
   3   ░░ ▒░ ░░▒▓███▀▒░ ▒░▒░▒░ ░ ▒░▓  ░▒▒   ▓▒█░ [+] Add Brute Mode               
       ░ ░  ░▒░▒   ░   ░ ▒ ▒░ ░ ░ ▒  ░ ▒   ▒▒ ░  [+] TLS/SSL Supported #1.3.2     
          ░    ░    ░ ░ ░ ░ ▒    ░ ░    ░   ▒    [+] Request,Threads Optimization,
-        ░  ░ ░      ░   ░ ░      ░  ░     ░  ░                                   
+        ░  ░ ░      ░   ░ ░      ░  ░     ░  ░  [+] Final Update Version # 1.4.0.
                     ░                           \n""")
 
 socks_version = str(input("Socks Version (4/5) : "))
@@ -275,7 +275,7 @@ def flood(attack_type,host,port,path,x,brute,eve):
                         str(request).encode()
                     )
                 s.close()
-                print("[%s:%s] %s Request -> %s"%(proxy[0],proxy[1],attack_type,host))
+                print("[%s:%s] %s"%(proxy[0],proxy[1],http))
             except:
                 s.close()
                 proxy = random.choice(proxies).strip().split(":")
