@@ -12,6 +12,7 @@
                                                           #1.3.0 Update Info
                                                       [+] TLS/SSL Supported
                                                           #1.3.2 Update Info
+                                                      [+] Final Update Version # 1.4.0.
 
 # Ebola-DDoS
 
