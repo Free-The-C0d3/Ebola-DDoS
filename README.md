@@ -72,5 +72,5 @@ If Somebody Try To Sell This Script, Send Report To Me  :)
 Youtube: https://youtu.be/BmssEPjLc_o (blockade)
 
 My Youtube Video Get blockade Last Week, 
-I'll Upload It Again When Im free 
+I'll Upload It Again When Im free .
 Sorry About that
