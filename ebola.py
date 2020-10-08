@@ -21,7 +21,7 @@ else:
 
 print("""
       ▓█████  ▄▄▄▄    ▒█████   ██▓    ▄▄▄   Ebola DDoS Tool Code By 413xPr06605.
-3     ▓█   ▀ ▓█████▄ ▒██▒  ██▒▓██▒   ▒████▄         This Version Only For Linux.
+3     ▓█   ▀ ▓█████▄ ▒██▒  ██▒▓██▒   ▒████▄        Linux/Windows Both Supported.
  1    ▒███   ▒██▒ ▄██▒██░  ██▒▒██░   ▒██  ▀█▄                Socks4/5 Supported.
 8 4   ▒▓█  ▄ ▒██░█▀  ▒██   ██░▒██░   ░██▄▄▄▄██                Version ~ # 1.5.0,
  2    ░▒████▒░▓█  ▀█▓░ ████▓▒░░██████▒▓█   ▓██▒
