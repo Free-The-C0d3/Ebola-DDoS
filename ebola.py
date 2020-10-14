@@ -475,8 +475,6 @@ else:
         sys.exit()
     else:
         print('\33]0;[%s] EbolaVirus-[Ready]\a'%(len(proxies)),end='')
-else:
-    pass
 
 if "--method=GET" in sys.argv:
     attack_type = "GET"
