@@ -71,7 +71,7 @@ If I Found Anyone Who Sell This Script
 
 I'll Stop Update And Delete This Script
 
-If Somebody Try To Sell This Script, Send Report To Me  :)
+If you see someone is trying to sell this script, please report to me immediately
 
 -----------------------------------------------------------------
 Youtube: https://youtu.be/BmssEPjLc_o (blockade)
