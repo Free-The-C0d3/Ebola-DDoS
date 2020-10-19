@@ -353,17 +353,23 @@ if len(sys.argv) < 5:
             print(" --socks4    | Using Socks4 DDoS")
             print(" --socks5    | Using Socks5 DDoS")
             print("\nAttacking Method Can Be Change Like\n")
-            print("-> --method=GET")
-            print("-> --method=POST")
-            print("-> --method=HEAD\n")
+            print(" --method=GET")
+            print(" --method=POST")
+            print(" --method=HEAD\n")
             sys.exit()
         elif str(sys.argv[1]) == "--install":
             ins_module()
             pass
         elif str(sys.argv[1]) =="--createmap":
-            import folium
-            import IP2Location
-            import zipfile
+            try:
+                import folium
+                import IP2Location
+                import zipfile
+            except:
+                if os.name =="nt":
+                    os.system("py -m pip install folium IP2Location")
+                else:
+                    os.system("pip3 install folium IP2Location")
             extractZIP()
             pass
         else:
@@ -410,9 +416,15 @@ except:
         sys.exit()
 
 if "--createmap" in sys.argv:
-    import folium
-    import IP2Location
-    import zipfile
+    try:
+        import folium
+        import IP2Location
+        import zipfile
+    except:
+        if os.name =="nt":
+            os.system("py -m pip install folium IP2Location")
+        else:
+            os.system("pip3 install folium IP2Location")
     extractZIP()
 else:
     pass
