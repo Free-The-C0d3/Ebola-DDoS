@@ -34,7 +34,7 @@ new_host = ""
 brute = ""
 sock_version = "5"
 ipfile = "socks5.txt"
-attack_type = "GET"
+attack_type = ""
 brute = "OFF"
 nums = 0
 suc = 0
@@ -353,9 +353,9 @@ if len(sys.argv) < 5:
             print(" --socks4    | Using Socks4 DDoS")
             print(" --socks5    | Using Socks5 DDoS")
             print("\nAttacking Method Can Be Change Like\n")
-            print(" --method=GET")
-            print(" --method=POST")
-            print(" --method=HEAD\n")
+            print(" --GET")
+            print(" --POST")
+            print(" --HEAD\n")
             sys.exit()
         elif str(sys.argv[1]) == "--install":
             ins_module()
@@ -414,6 +414,13 @@ except:
         os.system("clear")
         print("Run ~# \'python3 %s --install\'\nCan Auto Install Module")
         sys.exit()
+
+if "--POST" in sys.argv:
+    attack_type = "POST"
+elif "--HEAD" in sys.argv:
+    attack_type = "HEAD"
+else:
+    attack_type = "GET"
 
 if "--createmap" in sys.argv:
     try:
@@ -487,19 +494,6 @@ else:
         sys.exit()
     else:
         print('\33]0;[%s] EbolaVirus-[Ready]\a'%(len(proxies)),end='')
-
-if "--method=GET" in sys.argv:
-    attack_type = "GET"
-else:
-    pass
-if "--method=POST" in sys.argv:
-    attack_type = "POST"
-else:
-    pass
-if "--method=HEAD" in sys.argv:
-    attack_type = "HEAD"
-else:
-    pass
 
 if "--brute" in sys.argv:
     brute = "ON"
